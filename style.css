@@ -1,0 +1,42 @@
+		html, body {
+			background-color: #80ffdf;
+		}
+		h1 {
+			letter-spacing: 5px;
+			border-style: solid;
+			border-color: #33cc33;
+			color: #e600ac;
+		}
+		p {
+			border-style: solid;
+			border-color: #33cc33;
+			color: #e600ac;
+		}
+		.text {
+			color: #e600ac;
+			float: left;
+			width: 29%;
+		}
+		.images {
+			float: left;
+			width: 65%;
+			overflow: scroll;
+			max-height: 300px;
+		}
+		.images img {
+			width:304px;
+			height: 228px;
+		}
+		.photo-block {
+			padding: 10px;
+			margin-top: 20px;
+			border: 3px solid #33cc33;
+		}
+		
+
+		/* Clear all the floating stuff */
+		.photo-block:after {
+			content: " ";
+			display: block;
+			clear: both;
+		}
